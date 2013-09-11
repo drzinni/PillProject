@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Day of Week, Month, Day in Text View -->
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/clock"
+        android:textSize="40sp" />
+
+    <!-- pill frame -->
+
+
+    <!-- buttons -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:onClick="testAlarm"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="about"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="@string/button_about"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="settings"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="@string/button_settings"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

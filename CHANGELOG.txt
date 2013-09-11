@@ -1,0 +1,7 @@
+11/27/2012 12:39AM Garrett L
+Made AlarmMain.java activated through AlarmManager (the button sets the alarm for the current time).
+Created AlarmService.java to allow scheduling the AlarmManager in the background
+Created Receiver.java to recieve ON_BOOT messages (also added use-permission) (NOTE:fails to work if on sdcard)
+
+11/27/2012 12:59AM Garrett L
+Accidentally committed files before saving previously

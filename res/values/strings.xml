@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PAL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Home Screen</string>
+    <string name="title_activity_alarm_main">AlarmMain</string>
+    <string name="button_alarm_test">Alarm Test</string>
+    <string name="button_taken">I took this.</string>
+    <string name="button_cant_find">Can\'t find it!</string>
+    <string name="button_ran_out">I\'m out!</string>
+    <string name="button_about">About</string>
+    <string name="clock">Digital Clock</string>
+    <string name="button_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="about">Placeholder about text</string>
+    <string name="title_activity_settings_main">SettingsMain</string>
+    <string name="button_home">Home Screen</string>
+    <!-- activity settings button strings -->
+
+    <string name="button_add_pill">Add A Pill</string>
+    <string name="button_pill_lookup">Pill Lookup</string>
+    <string name="button_modify_schedule">Change Schedule</string>
+    <string name="title_activity_general_settings">General Settings</string>
+    <string name="title_activity_add_pill">Pill Setup</string>
+
+    <!-- Pill Setup resources -->
+    <string name="dialog_pilledit_pillcolor">Pill Color</string>
+    <string name="take_pill_picture">Take picture of pill</string>
+    <string name="pill_name">Pill Name</string>
+    <string name="pill_location">Pill Location</string>
+    <string name="pill_instruction_label">Pill Instructions</string>
+    <string name="submit_pill">Save Pill</string>
+    <string name="pill_instructions">Enter any instructions for taking the pill. (With food, without food, etc)</string>
+    <string name="title_activity_list_pills">ListPills</string>
+    <string name="dialog_pilledit_pillname">Pill Name</string>
+    <string name="dialog_set">Set</string>
+    <string name="dialog_revert">Revert</string>
+    <string name="dialog_pilledit_pilllocation">Pill Location</string>
+    <string name="dialog_pilledit_pillinstructions">Pill Instructions</string>
+    <string name="alarm_confirmtaken">Are you sure you\'ve taken this pill?</string>
+    <string name="alarm_confirm_yes">Yes</string>
+    <string name="alarm_confirm_no">No</string>
+    <string name="dialog_pilledit_pilldosage">Dosage</string>
+    <string name="dayMonday">Monday</string>
+    <string name="dayTuesday">Tuesday</string>
+    <string name="daySunday">Sunday</string>
+    <string name="dayWednesday">Wednesday</string>
+    <string name="dayThursday">Thursday</string>
+    <string name="dayFriday">Friday</string>
+    <string name="daySaturday">Saturday</string>
+    <string name="dialog_pilledit_addpillsched">Add Schedule</string>
+    <string name="dialog_pilledit_editpillsched">Edit Schedule</string>
+    <string name="dialog_pilledit_edittime">Edit Time</string>
+    <string name="dialog_pilledit_editdays">Edit Days</string>
+    <string name="alarm_confirmcantfind">Are you sure you can\'t find this pill?</string>
+    <string name="alarm_confirmimout">Are you sure you\'re out?</string>
+    <string name="contentdescriptionofpill">Picture of Pill</string>
+
+</resources>

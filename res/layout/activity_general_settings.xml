@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+    <Button
+        android:id="@+id/addPillB"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="addPill"
+        android:text="@string/button_add_pill"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/lookupButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="lookup"
+        android:text="@string/button_pill_lookup"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/modifyScheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="modifySchedule"
+        android:text="@string/button_modify_schedule"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="goHome"
+        android:text="@string/button_home"
+        android:textSize="24sp" />
+
+</LinearLayout>

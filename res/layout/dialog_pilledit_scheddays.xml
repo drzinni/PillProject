@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <CheckBox
+        android:id="@+id/pillsched_daysunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daySunday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_daymonday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayMonday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_daytuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayTuesday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_daywednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayWednesday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_daythursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayThursday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_dayfriday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dayFriday" />
+
+    <CheckBox
+        android:id="@+id/pillsched_daysaturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daySaturday" />
+
+</LinearLayout>
